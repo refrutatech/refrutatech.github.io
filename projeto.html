@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Rê Fruta - Projeto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/logoMini.png">
+  <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>
+<!-- Navbar -->
+  <nav class="w3-top ">
+    <div class="w3-bar w3-card w3-text-white navbar" id="myNavbar">
+      <a href="index.html" class="w3-bar-item w3-button w3-wide w3-hover-pale-yellow">
+        <img src='images/logoMini.png' alt='Logo Rê' style="height:25px;"/>
+      </a>
+      <!-- Navbar -->
+      <div class="w3-right w3-hide-small w3-text-black">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-pale-yellow">SOBRE</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hover-pale-yellow"><i class="fa fa-envelope"></i> CONTATO</a>
+      </div>
+      <!-- Botão menu em telas pequenas -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-text-black w3-right w3-hide-large w3-hide-medium w3-hover-pale-yellow" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Sidebar do menu telas pequenas-->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large navbar" style="display:none; z-index: 5;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-hover-pale-yellow w3-padding-16">Fechar ×</a>
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-hover-pale-yellow w3-button">SOBRE</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-hover-pale-yellow w3-button">CONTATO</a>
+  </nav>
+
+  <main>
+      
+    <!-- Seção Projeto -->
+    <section class="w3-panel w3-light-grey w3-center" style="padding:64px 16px; " id="canvas">
+      <h3 class="w3-center" style='color: var(--laranjaLogo); font-weight: 900;'>Canvas</h3>
+      <a href='images/Opportunity_Canvas.jpg'>
+      <img src="images/Opportunity_Canvas.jpg" class="w3-center" style='max-width: 80%;' alt="Canvas de oportunidade">
+      </a>
+    </section>
+
+    <!-- Contato -->
+    <section class="w3-panel w3-light-grey w3-text-blue-gray" style="padding:64px 16px" id="contact">
+      <h3 class="w3-center">CONTATO</h3>
+      <p class="w3-center w3-large">Tire suas duvidas, mande uma mensagem:</p>
+      <div style="margin-top:48px">
+        <address><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> São Paulo - SP</address>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: -------</p>
+        <a href='mailto:refruta6@gmail.com'><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: refruta6@gmail.com</a>
+        <br>
+      </div>
+    </section>
+
+  </main>    
+
+  <!-- Footer -->
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0, 194, 203,0.7)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0, 194, 203,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0, 194, 203,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#00c2cb" />
+      </g>
+    </svg>
+  </div>
+
+  <footer class="w3-center w3-padding-64">
+    <a class="custom-btn btn-14 w3-button w3-margin-top w3-margin-bottom" href='index.html'>HOME</a>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
