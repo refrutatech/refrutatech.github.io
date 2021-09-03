@@ -147,3 +147,10 @@ footer {
       font-size:24px;
     }
 }
+
+/* Imagem Fixa */
+
+.wp-block-cover-image {
+  background-attachment: fixed;
+  background-position: 50% 0;
+}
