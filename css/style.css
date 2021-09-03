@@ -5,6 +5,7 @@
     --cianoLogo: #00c2cb;
     --navBege: #f1e4cf;
     --botãoHover:#ffff00; 
+    --backBlue: #b6dddc;
   }
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
@@ -14,6 +15,9 @@ body, html {
   line-height: 1.8;
 }
 
+body {
+  background-color: var(--backBlue);
+}
 
 .bgimg-1 {
   background-position: top;
@@ -29,6 +33,9 @@ body, html {
 
 section {
     margin: 0 2%;
+    box-shadow:
+    4px 4px 5px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
 }
 
   /* Botão Especial */
