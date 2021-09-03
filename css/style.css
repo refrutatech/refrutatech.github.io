@@ -89,10 +89,14 @@ section {
     top: 2px;
 }
 
-/* Cores gerais */
+/* Gerais */
 
 a {
     text-decoration: none;
+}
+
+a:focus{
+  text-decoration: underline;
 }
 
 footer {
