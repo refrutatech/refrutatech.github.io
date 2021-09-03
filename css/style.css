@@ -150,7 +150,7 @@ footer {
 
 /* Imagem Fixa */
 
-.wp-block-cover-image {
+.imagem-fixa {
   background-attachment: fixed;
   background-position: 50% 0;
 }
