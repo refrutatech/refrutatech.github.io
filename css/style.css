@@ -1,32 +1,36 @@
 /* Base */
 
-:root {
-    --laranjaLogo: #ff5e00;
-    --cianoLogo: #00c2cb;
+/* :root {
+    --main: #ff5e00;
+    --main1: #00c2cb;
     --navBege: #f1e4cf;
     --botãoHover:#ffff00; 
-    --backBlue: #b6dddc;
-    --deepBlue: #00457e;
+    --backLight: #b6dddc;
+    --backDark: #00457e;
+  } */
+
+:root {
+    --main: #ff5e00;
+    --navBege: #e9cea2;
+    --botãoHover:#ffff00; 
+    --backLight: #beddb6;
+    --backDark: #00457e;
   }
 
-.laranja{
-  color: var(--laranjaLogo);
+.main{
+  color: var(--main);
 }
 
 .baby{ 
-  color: var(--backBlue);
-}
-
-.ciano{
-  color: var(--cianoLogo);
+  color: var(--backLight);
 }
 
 .deep{
-  color: var(--deepBlue);
+  color: var(--backDark);
 }
 
 .fdeep{
-  background-color: var(--deepBlue);
+  background-color: var(--backDark);
 }
 
 .fbege{
@@ -41,7 +45,7 @@ body, html {
 }
 
 body {
-  background-color: var(--backBlue);
+  background-color: var(--backLight);
 }
 
 header{
@@ -52,7 +56,7 @@ header{
 .bgimg-1 {
   background-position: top;
   background-size: cover;
-  background-image: url("https://wallpapercave.com/wp/a2suqiw.jpg");
+  background-image: url("https://www.tinymassagecart.com/wp-content/uploads/2015/12/15472-wood-texture-1920x1200-abstract-wallpaper.jpg");
   min-width: 100%;
   min-height: 30%;
 }
@@ -69,10 +73,15 @@ section {
   font-size: 15vh;
   font-weight: 900;
   text-align: center;
+  color: var(--main);
 }
 
 .subtitulo{
   font-weight: 600;
+}
+
+.cttmsg{
+  font-size: xx-large;
 }
 
   /* Botão Especial */
@@ -94,7 +103,7 @@ section {
 }
 
 .btn-14 {
-    background: var(--laranjaLogo);
+    background: var(--main);
     border: none;
     z-index: 1;
 }
@@ -107,8 +116,8 @@ section {
     left: 0;
     z-index: -1;
     border-radius: 5px;
-    background-color: var(--botãoHover);
-    background-image: linear-gradient(315deg, var(--botãoHover) 0%, #f6fc9c 74%);
+    background-color: var(--backLight);
+    background-image: linear-gradient(315deg, var(--backLight) 0%, var(--navBege) 90%);
     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
         7px 7px 20px 0px rgba(0,0,0,.1),
         4px 4px 5px 0px rgba(0,0,0,.1);
@@ -137,7 +146,7 @@ a:focus{
 }
 
 footer {
-    background-color: var(--cianoLogo);
+    background-color: var(--backDark);
 }
 
 .navbar{
@@ -149,11 +158,11 @@ footer {
 }
 
 .ibtn1:hover{
-  color: var(--deepBlue);
+  color: var(--backDark);
 }
 
 .ibtn2:hover{
-  color: var(--cianoLogo);
+  color: var(--backLight);
 }
 
 .return{
@@ -198,33 +207,3 @@ footer div ul{
   list-style: none;
 }
 
-/**/
-
-.custom-shape-divider-top-1632353216 {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1632353216 svg {
-  position: relative;
-  display: block;
-  width: calc(300% + 1.3px);
-  height: 52px;
-}
-
-.custom-shape-divider-top-1632353216 .shape-fill {
-  fill: #B6DDDC;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .custom-shape-divider-top-1632353216 svg {
-      width: calc(300% + 1.3px);
-      height: 89px;
-  }
-}
