@@ -68,8 +68,11 @@ header{
   min-height:60vh;
 }
 
-.canvasIni{
-  width: 50vw;
+.fotosSorv{
+  width: 30vw;
+  border-radius: 10%;
+  border-style: inset;
+  border-color: var(--main);
 }
 
 .w3-bar .w3-button {
