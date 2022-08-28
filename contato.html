@@ -17,31 +17,34 @@
 
 <body>
 <!-- Navbar -->
-  <nav class="w3-top ">
+  <!-- Navbar -->
+  <nav class="w3-top" style='z-index: 5;'>
     <div class="w3-bar w3-card w3-text-white navbar" id="myNavbar">
       <a href="index.html" class="w3-bar-item w3-button w3-wide w3-hover-pale-yellow">
-        <img src='images/logoMini.png' alt='Logo Rê' style="height:25px;"/>
+        <img src='images/logoMini.png' alt='Logo Rê' style="height:25px;">
       </a>
       <!-- Navbar -->
       <div class="w3-right w3-hide-small w3-text-black">
         <a href="about.html" class="w3-bar-item w3-button w3-hover-pale-yellow">SOBRE</a>
         <a href="projeto.html" class="w3-bar-item w3-button w3-hover-pale-yellow"><i class="fa fa-th"></i> PROJETO</a>
         <a href="contato.html" class="w3-bar-item w3-button w3-hover-pale-yellow"><i class="fa fa-envelope"></i> CONTATO</a>
+        <a href="encomenda.html" class="w3-bar-item w3-button w3-hover-pale-yellow"><i class="fa fa-basket-shopping"></i> PEDIDO</a>
       </div>
       <!-- Botão menu em telas pequenas -->
 
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-text-black w3-right w3-hide-large w3-hide-medium w3-hover-pale-yellow" onclick="w3_open()">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-text-black w3-hide-large w3-hide-medium w3-hover-pale-yellow" onclick="w3_open()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
   </nav>
 
   <!-- Sidebar do menu telas pequenas-->
-  <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large navbar" style="display:none; z-index: 6; top:0;" id="mySidebar">
+  <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large navbar" style="display:none; z-index: 6;" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-hover-pale-yellow w3-padding-16">Fechar ×</a>
     <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-hover-pale-yellow w3-button">SOBRE</a>
     <a href="projeto.html" onclick="w3_close()" class="w3-bar-item w3-hover-pale-yellow w3-button">PROJETO</a>
     <a href="contato.html" onclick="w3_close()" class="w3-bar-item w3-hover-pale-yellow w3-button">CONTATO</a>
+    <a href="encomenda.html" onclick="w3_close()" class="w3-bar-item w3-hover-pale-yellow w3-button">PEDIDO</a>
   </nav>
 
   <!-- Header -->
@@ -61,14 +64,17 @@
     <!-- Contato -->
     <section style="padding:64px 16px" id="top">
       <h2 class="w3-center cttmsg subtitulo main">Tire suas duvidas, mande uma mensagem:</h2>
-      <div style="margin-top:48px">
+      <div style="margin-top:48px" class=" w3-twothird">
         <address><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> São Paulo - SP</address>
         <a href='https://www.instagram.com/refruta_sorvetes/'><p><i class="fab fa-instagram fa-fw w3-xxlarge w3-margin-right"></i> Instagram: @refruta_sorvetes</p></a>
         <a href='mailto:suporte@refruta.eco.br'><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: suporte@refruta.eco.br</a>
         <br>
       </div>
+      <div class="w3-xlarge w3-padding-32 w3-third w3-center ">
+        <a class="custom-btn btn-14 w3-button return" href='encomenda.html'>Faça um pedido!</a>
+      </div>
+      
     </section>
-
   </main>    
 
   <!-- Footer c/ ondinhas UwU-->
@@ -94,6 +100,7 @@
         <li><a href='about.html'>Sobre</a></li>
         <li><a href='projeto.html'>Projeto</a></li>
         <li><a href='contato.html'>Contato</a></li>
+        <li><a href='encomenda.html'>Pedido</a></li>
       </ul>
     </div>
     <div class="w3-xlarge w3-padding-32 w3-third w3-center ">
