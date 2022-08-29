@@ -109,6 +109,28 @@
 
 /**/
 
+.custom-shape-divider-top-1632351607 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632351607 svg {
+    position: relative;
+    display: block;
+    width: calc(165% + 1.3px);
+    height: 52px;
+}
+
+.custom-shape-divider-top-1632351607 .shape-fill {
+    fill: var(--backLight);
+}
+
+/**/
+
 .custom-shape-divider-top-1632351601 {
     position: relative;
     top: 0;
